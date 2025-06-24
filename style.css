@@ -1,0 +1,117 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefaf6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #5a3e36;
+}
+
+header p {
+  color: #7d6b63;
+  font-style: italic;
+}
+
+/* Form Section */
+#form-section,
+#filter-section,
+#compliment-list {
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+select:focus {
+  border-color: #a37860;
+  outline: none;
+}
+
+button {
+  background-color: #a37860;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #865f49;
+}
+
+/* Compliment list */
+#compliments-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.compliment-card {
+  background-color: #fff;
+  border-left: 6px solid #a37860;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.compliment-card h3 {
+  margin-bottom: 5px;
+}
+
+.compliment-card p {
+  margin: 5px 0;
+}
+
+.compliment-card small {
+  color: #666;
+  font-style: italic;
+}
+
+.delete-btn {
+  background-color: #e26565;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+.delete-btn:hover {
+  background-color: #c95252;
+}

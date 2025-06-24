@@ -1,0 +1,22 @@
+{
+  "compliments": [
+    {
+      "id": 1,
+      "text": "You have such a calming voice.",
+      "location": "Café Downtown",
+      "emotion": "Happy"
+    },
+    {
+      "id": 2,
+      "text": "I love your energy — it’s contagious!",
+      "location": "Street Market",
+      "emotion": "Inspired"
+    },
+    {
+      "id": 3,
+      "text": "Your outfit is so unique, I love it!",
+      "location": "Library",
+      "emotion": "Confused"
+    }
+  ]
+}

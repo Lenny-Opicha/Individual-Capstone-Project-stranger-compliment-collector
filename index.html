@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stranger Compliment Collector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Stranger Compliment Collector</h1>
+    <p> Ever had a very enticing first encounter with a stranger ? Say less!! We are here to help you save and reflect on kind words from unexpected places </p>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Add a Compliment</h2>
+      <form id="compliment-form">
+        <input type="text" id="compliment-text" placeholder="What was said?" required />
+        <input type="text" id="compliment-location" placeholder="Where did it happen?" required />
+        <select id="compliment-emotion" required>
+          <option value="" disabled selected>Select Emotion</option>
+          <option value="Happy">Happy</option>
+          <option value="Confused">Confused</option>
+          <option value="Inspired">Inspired</option>
+        </select>
+        <button type="submit">Add Compliment</button>
+      </form>
+    </section>
+
+    <section id="filter-section">
+      <h2>Filter Compliments</h2>
+      <select id="filter-emotion">
+        <option value="All">All Emotions</option>
+        <option value="Happy">Happy</option>
+        <option value="Confused">Confused</option>
+        <option value="Inspired">Inspired</option>
+      </select>
+    </section>
+
+    <section id="compliment-list">
+      <h2>Compliment Log</h2>
+      <ul id="compliments-container"></ul>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
