@@ -6,7 +6,7 @@ const complimentEmotion = document.getElementById('compliment-emotion');
 const filterEmotion = document.getElementById('filter-emotion');
 const complimentsContainer = document.getElementById('compliments-container');
 
-const baseURL = 'https://compliment-api.onrender.com/compliments';
+const baseURL = 'https://stranger-compliment-collector.onrender.com';
 
 // Fetch and render all compliments
 function fetchCompliments() {
